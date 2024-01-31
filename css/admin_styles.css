@@ -1,0 +1,14 @@
+table td#Nesemnat{
+    color:red!important;
+}
+ table td#Semnat{
+    color:rgb(150, 125, 15)!important;
+}
+ table td#Complet{
+    color:green!important;
+}
+
+table td.status{
+    font-weight: 500!important;
+    text-transform: uppercase!important;
+}

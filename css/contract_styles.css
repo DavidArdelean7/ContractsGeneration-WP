@@ -1,0 +1,140 @@
+div.user_contracts_wrap table td form input[type="submit"] {
+    border-radius: 24px!important;
+    background-color: #003264!important;
+    border: 1px solid #111!important;
+    color: white!important;
+}
+
+div.user_contracts_wrap table td form input[type="submit"]:disabled {
+    border-radius: 24px!important;
+    background-color: #003264!important;
+    border: 1px solid #111!important;
+    color: white!important;
+    opacity: .5!important;
+}
+
+div.user_contracts_wrap table td form input[type="file"] {
+    height: 100%!important;
+    margin-bottom: 10px!important;
+}
+
+div.user_contracts_wrap table td form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div.user_contracts_wrap table td {
+    text-align: center!important;
+    vertical-align: middle!important;
+    border-radius: 0!important;
+    margin-bottom: 20px!important;
+}
+
+div.user_contracts_wrap table th{
+    text-align: center!important;
+    vertical-align: middle!important;
+}
+
+div.user_contracts_wrap table td:first-of-type {
+    
+    border-top-left-radius: 24px!important;
+    border-bottom-left-radius: 24px!important;
+
+}
+div.user_contracts_wrap table td:last-of-type {
+
+    border-top-right-radius: 24px!important;
+    border-bottom-right-radius: 24px!important;
+}
+
+.user_contracts_wrap tbody {
+
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    width: 100%;
+}
+
+
+.user_contracts_wrap table{
+    background-color: transparent!important;
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+}
+
+.file-input-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 50px
+  }
+
+  .file-input-wrapper input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%!important;
+  }
+
+
+
+.user_contracts_wrap table#customer_contracts{
+    padding: 0!important;
+}
+
+h2.contracts_heading{
+    font-family: "NewSpirit", Lexend, Arial, Sans-serif!important;
+    color:#003264;
+}
+
+p.contracts-notify{
+    margin-top:50px!important;
+    font-size:20px!important;
+}
+
+a.sponsorship-offer{
+    padding:10px 15px!important;
+    line-height: 1em!important;
+    height:auto!important;
+    background-color: #003264;
+    color: white;
+    transition: .3s ease all;
+    border-radius: 24px;
+    border:3px solid #003264;
+    font-size: 20px;
+    margin-top:20px!important;
+    display: inline-block;
+}
+
+a.sponsorship-offer:hover{
+    background-color: transparent;
+    color:#003264;
+}
+
+ table td.Nesemnat{
+    color:red!important;
+}
+ table td.Semnat{
+    color:rgb(150, 125, 15)!important;
+}
+ table td.Complet{
+    color:green!important;
+}
+
+@media only screen and (max-width:767px){
+
+    .user_contracts_wrap table td{
+        font-size:16px!important;
+        padding:10px !important;
+    }
+
+    .user_contracts_wrap table th{
+        font-size:18px!important;
+        padding:10px!important;
+    }
+
+    .user_contracts_wrap {
+        overflow-x: scroll;
+    }
+}
