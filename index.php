@@ -1,19 +1,19 @@
 <?php
 
 /**
- * Plugin Name: DSContractsGeneration
+ * Plugin Name: ContractsGeneration
  * Description: Automatically generates contracts (PDF format) based on meta field text and sends an email with the pdf link
  * Version: 3.0
  * Author: David Ardelean
- * Text Domain: desprespa-contracts
+ * Text Domain: contracts
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-define('CONTRACTS_TABLE', "desprespa_contracts") ;
-define('ADMIN_EMAIL', 'ioana.marian@desprespa.ro');
+define('CONTRACTS_TABLE', "contracts") ;
+define('ADMIN_EMAIL', 'email@gmail.ro');
 class ContractsHandler{
 
     public static ?object $contracts = null;
@@ -60,10 +60,10 @@ class ContractsHandler{
     public function contracts_menu_page(){
     
             add_menu_page(
-                'Contracte despreSpa',         
-                'Contracte despreSpa',         
+                'Contracte',         
+                'Contracte',         
                 'manage_options',         
-                'contracte-despre-spa',         
+                'contracte',         
                 [self::$listing, 'contracts_menu_page_content'], 
                 'dashicons-media-document'  
             );
