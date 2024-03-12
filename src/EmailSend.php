@@ -44,7 +44,7 @@ class EmailSend{
 
         $headers = "From: ardelean.david@growably.ro" . "\r\n" .
         "Content-Type: text/html; charset=UTF-8";
-        $subject= "Contract despreSpa pentru comanda ". $this->order->get_id();
+        $subject= "Contract pentru comanda ". $this->order->get_id();
     
         $customer_email = $this->order->get_billing_email();
         $message = $this->get_email_text();
@@ -55,11 +55,11 @@ class EmailSend{
 
         $headers = "From: ardelean.david@growably.ro" . "\r\n" .
         "Content-Type: text/html; charset=UTF-8";
-        $subject= "Actualizare status contract despreSpa pentru comanda ". $this->order->get_id();
+        $subject= "Actualizare status contract pentru comanda ". $this->order->get_id();
     
         //$admin_email = ADMIN_EMAIL;
         $admin_email = 'ardelean.david@growably.ro';
-        $page_link = admin_url("admin.php?page=contracte-despre-spa");
+        $page_link = admin_url("admin.php?page=contracte-spa");
         $message = 'Actualizarea contractului a avut loc cu succes! <br><br>
         <a href="'. esc_url($page_link) .'">Verifică aici</a>'; 
         wp_mail($admin_email, $subject, $message, $headers);
