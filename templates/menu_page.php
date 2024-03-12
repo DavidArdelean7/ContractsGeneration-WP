@@ -1,6 +1,6 @@
 
 <div class="wrap">
-    <h2>Contracte DespreSpa</h2>
+    <h2>Contracte</h2>
     <table class="wp-list-table widefat fixed striped">
         <thead>
             <tr>
