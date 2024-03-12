@@ -1,7 +1,7 @@
 <?php  $data_rows = $this->get_user_contracts();
 if($data_rows){
     ?>
-    <h2 class='contracts_heading'>Contracte DespreSpa</h2>
+    <h2 class='contracts_heading'>Contracte</h2>
     <div class="user_contracts_wrap">
         
         <table id="customer_contracts" class="wp-list-table widefat fixed striped">
@@ -45,8 +45,8 @@ if($data_rows){
     }
     else{
         ?>
-       <h2 class='contracts_heading'>Contracte DespreSpa</h2>
-       <p class='contracts-notify'>Contractele se întocmesc pentru sponsorii despreSpa. Poți afla mai multe despre oferta noastră de sponsorizare accesând următorul link:</p>
+       <h2 class='contracts_heading'>Contracte </h2>
+       <p class='contracts-notify'>Contractele se întocmesc pentru sponsori. Poți afla mai multe despre oferta noastră de sponsorizare accesând următorul link:</p>
        <a class='sponsorship-offer' href='/oferta-sponsorizare-conferinta-spa/'>Vezi oferta</a>
 
      <?php  
